@@ -1,0 +1,65 @@
+.mr-3 {
+  margin-right: 6px;
+}
+.pad-20 {
+  padding-top: 25px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.flex-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: row wrap;
+  cursor: pointer;
+}
+.wrap {
+  justify-content: left;
+  width: 450px;
+}
+
+.colorselection {
+  width: 20px;
+  height: 20px;
+  margin: 2px;
+}
+
+.colorselection--avl {
+  background: rgb(204, 192, 192);
+}
+
+.colorselection--red {
+  background: red;
+}
+
+.colorselection--green {
+  background: rgb(11, 184, 11) !important;
+}
+
+.disabled-square {
+  background: red !important;
+  pointer-events: none;
+  cursor: not-allowed !important;
+}
+
+.color-next > div {
+  width: 20px;
+  height: 20px;
+  margin: 2px;
+  background: rgb(204, 192, 192);
+}
+.width-class {
+  width: 18rem;
+  margin: 10px;
+}
+.parent {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1 0 18rem !important; /* explanation below */
+}
+.box-shadow {
+  box-shadow: 50px 50px grey;
+}
